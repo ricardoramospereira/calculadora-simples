@@ -19,7 +19,7 @@ num1 = int(input('Whats is the first number: '))
 
 for symbol in operations:
     print(symbol)
-confirm = input('Escolha uma operação: ')
+confirm = input('choose the operation: ')
 num2 = int(input('Whats is the second number: '))
 calculation = operations[confirm]
 answer = calculation(num1, num2)
